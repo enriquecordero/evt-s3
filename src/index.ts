@@ -29,6 +29,8 @@ export class PrivateBucket extends Construct {
         : BucketEncryption.S3_MANAGED,
       encryptionKey: props.key,
       bucketName: props.bucketName,
+      bucketKeyEnabled: true,
+
     });
   }
 }

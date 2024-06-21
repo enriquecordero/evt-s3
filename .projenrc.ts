@@ -7,7 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   jsiiVersion: '~5.4.0',
   name: 'projen-s3',
   projenrcTs: true,
-  repositoryUrl: '',
+  repositoryUrl: 'https://github.com/enriquecordero/evt-s3.git',
   //npmRegistryUrl: 'aws codeartifact login --tool npm --repository evt-s3 --domain evt-s3 --domain-owner 913008941063 --region us-east-1',
 
 

@@ -1,5 +1,9 @@
 {
   "name": "projen-s3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enriquecordero/evt-s3.git"
+  },
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
