@@ -8,7 +8,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   name: 'projen-s3',
   projenrcTs: true,
   repositoryUrl: 'https://github.com/enriquecordero/evt-s3.git',
-  //npmRegistryUrl: 'aws codeartifact login --tool npm --repository evt-s3 --domain evt-s3 --domain-owner 913008941063 --region us-east-1',
+  npmRegistryUrl: 'https://evt-s3-913008941063.d.codeartifact.us-east-1.amazonaws.com/npm/evt-s3/',
 
 
   // deps: [],                /* Runtime dependencies of this module. */
