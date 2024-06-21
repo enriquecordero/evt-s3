@@ -66,9 +66,10 @@
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "publishConfig": {
+    "registry": "https://evt-s3-913008941063.d.codeartifact.us-east-1.amazonaws.com/npm/evt-s3/",
     "access": "public"
   },
-  "version": "0.0.0",
+  "version": "0.1.0",
   "jest": {
     "coverageProvider": "v8",
     "testMatch": [
