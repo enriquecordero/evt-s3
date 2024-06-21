@@ -1,9 +1,5 @@
 {
   "name": "projen-s3",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ecs5000/projen-s3.git"
-  },
   "scripts": {
     "build": "npx projen build",
     "bump": "npx projen bump",
@@ -38,7 +34,7 @@
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^7",
     "@typescript-eslint/parser": "^7",
-    "aws-cdk-lib": "2.1.0",
+    "aws-cdk-lib": "2.144.0",
     "constructs": "10.0.5",
     "eslint": "^8",
     "eslint-import-resolver-typescript": "^3.6.1",
@@ -57,7 +53,7 @@
     "typescript": "^5.5.2"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.1.0",
+    "aws-cdk-lib": "^2.144.0",
     "constructs": "^10.0.5"
   },
   "keywords": [
